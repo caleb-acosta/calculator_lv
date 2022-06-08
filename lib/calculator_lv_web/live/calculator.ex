@@ -4,7 +4,7 @@ defmodule CalculatorLvWeb.CalculatorLive do
 
   @topic "calc"
 
-  @valid_syntax ~r/^([-+]? ?(\d+)( ?[-+*\/] ?\g<1>)?)$/
+  @valid_syntax ~r/^([-+]? ?(\d+|\d+\.\d+)( ?[-+*\/] ?\g<1>)?)$/
   def mount(_params, _session, socket) do
     CalculatorLvWeb.Endpoint.subscribe(@topic)
 
