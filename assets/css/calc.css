@@ -1,0 +1,96 @@
+body {
+	background-color: #3b4664;
+	display: flex;
+	justify-content: center;
+	font-family: "Courier New";
+	font-weight: bold;
+}
+
+.screen {
+	width: 100%;
+	background-color: #181f32;
+	border: 0;
+	border-radius: 10px;
+	font-size: 64px;
+	color: white;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+button {
+ 	padding: 15px 0;
+ 	font-size: 30px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ 	border: 0;
+}
+
+
+button:active{
+	transform: translateY(4px);
+}
+
+.btn-regular:hover {
+	background-color: #cfc4bb;
+	box-shadow: 0 6px #B39A85;
+}
+
+.btn-blue:hover {
+	background-color: #4F5D83;
+	box-shadow: 0 6px #42517A;
+}
+
+.btn-red:hover {
+	background-color: #B93628;
+	box-shadow: 0 6px #9d271b;
+}
+
+.btn-regular {
+	background-color: #eae2df;
+	box-shadow: 0 6px #cfc4bb;
+}
+
+.btn-blue {
+	color: white;
+	background-color: #647299;
+	box-shadow: 0 6px #4F5D83;
+}
+
+.btn-red {
+	color: white;
+	background-color: #DE4737;
+	box-shadow: 0 6px #B93628;
+}
+
+.title{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.keyboard {
+	display: grid;
+  	grid-template-columns: auto auto auto auto;
+  	grid-gap: 15px;
+ 	background-color: #252c42;
+  	padding: 15px;
+  	border-radius: 10px;
+}
+
+.switch-box {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	margin-left: 5px;
+	align-self: center;
+	grid-gap: 3px;
+}
+
+.switch-box * {
+	padding: 0;
+	margin: 0px;
+}
+
+.theme {
+	display: flex;
+}
