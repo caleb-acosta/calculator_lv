@@ -30,6 +30,11 @@ button:active{
 	transform: translateY(4px);
 }
 
+.btn-regular-highlight {
+	background-color: #cfc4bb;
+	box-shadow: 0 6px #B39A85;
+}
+
 .btn-regular:hover {
 	background-color: #cfc4bb;
 	box-shadow: 0 6px #B39A85;
